@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appcrate38.linearlayouttest1.MainActivity">
+
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="110dp"
+        android:text="jehong1"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top|right"
+        />
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="110dp"
+        android:text="jehong2"
+        android:textSize="15sp"
+        android:gravity="top|left"
+        />
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="110dp"
+        android:text="jehong3"
+        android:textSize="15sp"
+        android:layout_gravity="end"
+        android:gravity="bottom|right"
+        />
+
+</LinearLayout>
